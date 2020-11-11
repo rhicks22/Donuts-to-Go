@@ -15,7 +15,7 @@ p{ opacity: 14pt;
     font-size: 12pt; font-family: 'Times New Roman', Times, serif; text-align: center;}
 
 
-body{border: 5pt solid gray;
+body{border: 8pt solid pink;
     background-color: bisque;
     font-family: cursive;
     margin: 10px;}
@@ -63,12 +63,28 @@ nav li {
     height: 400pxw;
     width: auto;
 }
-ol{font-size: 42pt; text-align: center;}
-ul{font-size: 20pt;
-    text-align: center; }
+
+ul{font-size: 24pt;
+    text-align: center;
+color: gray; }
+
+
 .para{color:pink;
-font-size: 18pt;}
-.instruction{color: pink;
-font-size: 22pt;}
-.flavor{ font-size: 18pt;
-color: pink;}
+font-size: 22pt;
+font-weight: 50pt;
+font-style: italic;}
+
+
+.instruction{color: rgb(128, 21, 128);
+font-size: 22pt;
+font-weight: 50pt;
+font-style: italic;}
+
+
+.flavor{ font-size: 22pt;
+color: pink;
+font-weight: 50pt;
+font-style: italic;
+font-style: bold;}
+
+ol .tilte{ font-style: 24pt;color: white;}
