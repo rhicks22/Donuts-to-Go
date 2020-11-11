@@ -3,13 +3,13 @@
 
 
 h1{margin: 12pt; 
-    font-size: 44pt;
+    font-size: 48pt;
      text-align: center; 
      color:rgb(122, 106, 138);}
 
 
 
-.pagehead{ text-align: left; font-size: 42pts;}
+.pagehead{ text-align: left; font-size: 44pts;}
 
 p{ opacity: 14pt;
     font-size: 12pt; font-family: 'Times New Roman', Times, serif; text-align: center;}
@@ -41,7 +41,7 @@ body{border: 5pt solid gray;
 }
 
 .main-links li:hover{
-    background-color:black;
+    background-color: pink;
     color: gray
 }
 
@@ -63,3 +63,12 @@ nav li {
     height: 400pxw;
     width: auto;
 }
+ol{font-size: 42pt; text-align: center;}
+ul{font-size: 20pt;
+    text-align: center; }
+.para{color:pink;
+font-size: 18pt;}
+.instruction{color: pink;
+font-size: 22pt;}
+.flavor{ font-size: 18pt;
+color: pink;}
