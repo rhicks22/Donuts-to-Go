@@ -1,5 +1,37 @@
 
-
+div.at-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+  }
+  .at-item {
+    color: gray;
+    animation-name: scale-in-top;
+    animation-duration: 1.2s;
+    animation-timing-function: ease;
+    animation-delay: 0s;
+    animation-iteration-count: 2;
+    animation-direction: alternate;
+    animation-fill-mode: none;
+  }
+  @keyframes scale-in-top {
+    0%{
+      -webkit-transform: scale(0);
+      transform: scale(0);
+      -webkit-transform-origin: 50% 0%;
+      transform-origin: 50% 0%;
+      opacity: 1;
+    }
+    100%{
+      -webkit-transform: scale(1);
+      transform: scale(1);
+      -webkit-transform-origin: 50% 0%;
+      transform-origin: 50% 0%;
+      opacity: 1;
+    }
+  }
+  
 
 
 h1{margin: 12pt; 
@@ -9,7 +41,7 @@ h1{margin: 12pt;
 
 
 
-.pagehead{ text-align: left; font-size: 44pts;}
+.pagehead{text-align: left; font-size: 28pt;}
 
 p{ opacity: 14pt;
     font-size: 12pt; font-family: 'Times New Roman', Times, serif; text-align: center;}
@@ -59,9 +91,40 @@ nav li {
 
 
 
-.container{ display: grid;
-    height: 400pxw;
-    width: auto;
+.pic1{margin-right: 20pt;
+  margin-left:20pt;
+  
+  text-align: center;
+    height: 200px;
+    width: 200px;
+}
+
+.pic2{margin-right: 20pt;
+  margin-left:40pt;
+ 
+  height: 200px;
+  width: 200px;
+}
+.pic3{ margin-right: 20pt;
+  margin-left:40pt;
+  
+  text-align: center;
+  height: 200px;
+  width: 200px;
+}
+.pic4{margin-right: 20pt;
+  margin-left:40pt;
+  
+  text-align: center;
+  height: 200px;
+  width: 200px;
+}
+.pic5{margin-right: 20pt;
+  margin-left:40pt;
+  
+  text-align: center;
+  height: 200px;
+  width: 200px;
 }
 
 ul{font-size: 24pt;
