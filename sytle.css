@@ -41,7 +41,11 @@ width: 200px;}
 h1{margin: 12pt; 
     font-size: 48pt;
      text-align: center; 
-     color:rgb(122, 106, 138);}
+     color:rgb(122, 106, 138);
+    border-top;: 2px solid purple}
+
+
+
 .types{font-size: 26pt; color: purple; border-top: 2px dotted purple;}
 .end{ border-bottom: 2px dotted purple;}
 
@@ -55,7 +59,7 @@ p{ opacity: 14pt;
 body{border: 8pt solid pink;
     background-color: bisque;
     font-family: cursive;
-    margin: 10px;}
+    margin: 8px;}
 
 
 
@@ -166,9 +170,19 @@ ol .tilte{ font-style: 24pt;color: white;}
 
 h3{text-align: center;}
 
-h2{text-align: center; color: pink;}
+h2{text-align: center; color: pink;
+border-bottom: 1px dotted purple;}
 
 .team{color: gray;}
 
-.label{text-align: center; font-size: 18pt;
-margin: 40px;}
+.label{text-align: center; font-size: 10pt;
+margin: 2px;}
+
+.wrapper{display: block;
+  position: left  ;
+
+font-size: 12pt;
+text-align: center;
+}
+#wrapper.checkall{text-align: center;
+font-size: 16pt;}
