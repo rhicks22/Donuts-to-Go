@@ -57,9 +57,9 @@ nav li {
 
 
 
-img{height: 300;
-width: 300px;
-text-align: center;}
 
-.box{ position: relative;
+
+.container{ display: grid;
+    height: 400pxw;
+    width: auto;
 }
