@@ -2,21 +2,35 @@
 
 
 
-h1{ font-size: 44pt; text-align: center;}
+h1{margin: 12pt; 
+    font-size: 44pt;
+     text-align: center; 
+     color:rgb(122, 106, 138);}
 
 
-body{
+
+.pagehead{ text-align: left; font-size: 42pts;}
+
+p{ opacity: 14pt;
+    font-size: 12pt; font-family: 'Times New Roman', Times, serif; text-align: center;}
+
+
+body{border: 5pt solid gray;
     background-color: bisque;
-    font-family: 'Montserrat', sans-serif;
-    margin: 0;
-}
-*nav {
-    font-size: 1.5em;
-    margin: 0;
+    font-family: cursive;
+    margin: 10px;}
+
+
+
+
+*nav {float: relative;
+    font-size: 18pt;
+    margin: 2px;
     width: 100%;
     background-color:honeydew;
     border: 1px solid black;
 }
+.hot{ font-size:  2em; text-align: Center; color: white;}
 
 .main-links {
     margin: 0;
@@ -71,4 +85,4 @@ nav li {
     display: block;
 }
 
-img{float: left;}
+
