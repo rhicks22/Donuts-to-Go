@@ -2,11 +2,11 @@
 
 
 
-h1{ font-size: 60pt; text-align: center;}
+h1{ font-size: 44pt; text-align: center;}
 
 
 body{
-    background-color: aliceblue;
+    background-color: bisque;
     font-family: 'Montserrat', sans-serif;
     margin: 0;
 }
@@ -14,7 +14,8 @@ body{
     font-size: 1.5em;
     margin: 0;
     width: 100%;
-    background-color: #303030;
+    background-color:honeydew;
+    border: 1px solid black;
 }
 
 .main-links {
@@ -25,7 +26,7 @@ body{
 }
 
 .main-links li:hover{
-    background-color: #505050;
+    background-color:gray;
     color: black
 }
 
@@ -70,4 +71,4 @@ nav li {
     display: block;
 }
 
-img{ float: inline-start;}
+img{ float: left}
