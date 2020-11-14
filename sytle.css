@@ -1,145 +1,18 @@
-
-div.at-container {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    height: 100%;
-  }
-  .at-item {
-    color: gray;
-    animation-name: scale-in-top;
-    animation-duration: 1.2s;
-    animation-timing-function: ease;
-    animation-delay: 0s;
-    animation-iteration-count: 2;
-    animation-direction: alternate;
-    animation-fill-mode: none;
-  }
-  @keyframes scale-in-top {
-    0%{
-      -webkit-transform: scale(0);
-      transform: scale(0);
-      -webkit-transform-origin: 50% 0%;
-      transform-origin: 50% 0%;
-      opacity: 1;
-    }
-    100%{
-      -webkit-transform: scale(1);
-      transform: scale(1);
-      -webkit-transform-origin: 50% 0%;
-      transform-origin: 50% 0%;
-      opacity: 1;
-    }
-  }
-  
-
-.plain{ float:left ;
-  margin-top: relative;
-  height: 200px;
-width: 200px;}
-
-h1{margin: 12pt; 
-    font-size: 48pt;
-     text-align: center; 
-     color:rgb(122, 106, 138);
-    border-top;: 2px solid purple}
-
-
-
-.types{font-size: 26pt; color: purple; border-top: 2px dotted purple;}
-.end{ border-bottom: 2px dotted purple;}
-
-
-.pagehead{text-align: left; font-size: 28pt;}
-
-p{ opacity: 14pt;
-    font-size: 12pt; font-family: 'Times New Roman', Times, serif; text-align: center;}
-
-
-body{border: 8pt solid pink;
-    background-color: bisque;
-    font-family: cursive;
-    margin: 8px;}
-
-
-
-
-*nav {float: relative;
-    position:sticky;
-    font-size: 18pt;
-    margin: 2px;
-    width: 100%;
-    background-color:honeydew;
-    border: 1px solid black;
-}
-.hot{ font-size:  2em; text-align: Center; color: white;}
-
-.main-links {
-    margin: 0;
-    display: flex;
-    justify-content: flex-end;
-    flex-direction: row;
-}
-
-.main-links li:hover{
-    background-color: pink;
-    color: gray
-}
-
-nav a {
-    text-decoration: none;
-    color: white;
-}
-
-nav li {
-    padding: 30px 30px;
-    list-style: none;
-}
-
-
-
-
-
-.pic1{display: inline;
-  margin-right: 20pt;
-  margin-left:20pt;
-  
-  
-    height: 200px;
-    width: 200px;
-}
-
-.pic2{display: inline;
-  margin-right: 20pt;
-  margin-left:40pt;
- 
-  height: 200px;
+.gallery{height: 200px;
   width: 200px;
+display: grid;
 }
-.pic3{display: inline;
-   margin-right: 20pt;
-  margin-left:40pt;
-  
-  
-  height: 200px;
-  width: 200px;
-}
-.pic4{display: inline;
-  margin-right: 20pt;
-  margin-left:40pt;
-  
-  text-align: center;
-  height: 200px;
-  width: 200px;
-}
-.pic5{display: inline;
-  margin-right: 20pt;
-  margin-left:40pt;
-  
-  
-  height: 200px;
-  width: 200px;
-}
+
+
+body{background-color: beige;
+border: 10px solid pink;
+display: grid;
+place-items: center;
+padding: 0;
+margin: 0;}
+
+
+.gallery{ width: 60vw;}
 
 ul{font-size: 24pt;
     text-align: center;
@@ -163,7 +36,6 @@ color: pink;
 font-weight: 50pt;
 font-style: italic;
 font-style: bold;}
-
 ol .tilte{ font-style: 24pt;color: white;}
 
 .footer{ font-style: italic; color: purple;}
@@ -178,12 +50,25 @@ border-bottom: 1px dotted purple;}
 .label{text-align: center; font-size: 10pt;
 margin: 2px;}
 
-.wrapper{display: block;
-  position: left  ;
+/* .wrapper >.checkall{display: grid;
+  margin-right: 10pt;
+  position: left  ; margin-left: 10pt;
 
 font-size: 12pt;
 text-align: center;
-}
-#wrapper.checkall{text-align: center;
-font-size: 16pt;}
+} */
+/* #wrapper.checkall{text-align: center;
+font-size: 16pt; display: flex;
+flex-basis: auto;} */
 
+.donuts-frosted{  display: grid;grid-template-columns: 100pxpx  100px 100px 100px;
+  grid-template-rows: 100px 100px 100px 100px ;  
+  gap: 3px 4px;
+  grid-template-areas:
+    /* ". . ."
+    ". . ."; */
+    
+}
+.begin{display: block;
+position: relative;
+text-align: left;}
