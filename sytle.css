@@ -386,8 +386,11 @@ margin: 2px;}
 
 
 }
+.container{ display: block;
+grid-area: 100 100 100;
+height: 150px; width: 150px 150px 150px; padding:30px; margin: 80px;
+}
 
-.footer{ font-style: italic; color: purple;}
 
 
 .pagehead{ font-size: 38pt; text-align: center;
@@ -406,3 +409,8 @@ text-align: left;}
 .foot{ color:gray;
 font-size: 24pt; font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;}
 footer{ color: gray;}
+.footer{ font-style: italic; color: purple;}
+
+.donut-types{ display: inline;
+  grid-area: auto;
+}
