@@ -410,10 +410,14 @@ color: grey;}
 position: relative;
 text-align: left;}
 
-.foot{ color:gray;
-font-size: 24pt; font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;}
-footer{ color: gray;}
-.footer{ font-style: italic; color: purple;}
+.foot{ color:wheat;
+  text-align: center;
+font-size: 28pt; 
+font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;}
+footer{ background-color: gray; min-width: 97.2vw;}
+
+.foot >p { text-align: center;}
+
 
 .donut-types{ display: inline;
   grid-area: auto;
