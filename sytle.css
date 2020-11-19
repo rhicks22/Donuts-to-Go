@@ -206,7 +206,6 @@ footer{ background-color: gray; min-width: 100%;
 
 .amounts{display: grid;
   grid-area: auto auto auto auto;
-   font-size: 16pt;
-   
+   font-size: 16pt; place-items: center;
      }
 
