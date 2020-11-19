@@ -205,8 +205,9 @@ color: grey;}
 .name{ text-align: center;}
 
 .grid-container{ display: grid;
-  grid-template-columns: 2fr 2fr 2fr ;
-  grid-auto-rows: 1fr 1fr; margin: 0; padding: 0;
+  grid-template-columns: 2fr 2fr 2fr;
+  grid-template-rows: 1fr 1fr; border-bottom: 4px dotted wheat;
+ 
 }
 .form{ width: 300px; height: 300px;}
 
